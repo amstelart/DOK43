@@ -30,7 +30,32 @@
   }
 
   &__nav {
+    .navbar-nav {
+      font-family: 'Roboto';
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
 
+      .nav-link {
+        color: #010101;
+        font-size: 18px;
+
+        &.dropdown-toggle {
+          &:after {
+            display: none;
+          }
+
+          .fas {
+            color: #888888;
+            font-size: 13px;
+          }
+        }
+
+        &:hover {
+          color: #7b7b7b;
+        }
+      }
+    }
   }
 
   &__top-inner {

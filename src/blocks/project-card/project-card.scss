@@ -1,0 +1,28 @@
+// В этом файле должны быть стили для БЭМ-блока project-card, его элементов,
+// модификаторов, псевдоселекторов, псевдоэлементов, @media-условий...
+// Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
+
+.project-card {
+
+  $block-name:                &; // #{$block-name}__element
+
+  .card-footer {
+    padding: 0.75rem 0;
+    margin: 0 1.25rem;
+    background: #fff;
+  }
+
+  .card-title {
+    font-family: 'Roboto';
+    margin-bottom: 0;
+    a {
+      color: #000;
+      display: block;
+
+      &:hover {
+        text-decoration: none;
+        color: #ff9a00;
+      }
+    }
+  }
+}

@@ -14,11 +14,34 @@
     padding-top: 15px;
   }
 
+  &__nav-box {
+
+    font-family: 'Roboto';
+
+    h5 {
+      font-weight: 500;
+      a {
+        color: #000;
+      }
+    }
+  }
+
   &__nav-list {
     list-style: none;
     padding: 0;
     font-size: 15px;
-
     margin-right: 30px;
+
+    li {
+      margin-bottom: 3px;
+    }
+
+    a {
+      color: #7b7b7b;
+
+      &:hover {
+        color: #ff9a00;
+      }
+    }
   }
 }

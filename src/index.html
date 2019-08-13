@@ -17,13 +17,31 @@
       @@include('blocks/page-header/page-header.html')
 
       <div class="intro">
-        <img src="img/intro-slide.jpg" alt="">
+        <div class="intro__figure"></div>
+        <div id="main-slider" class="intro-slider">
+          <div class="intro__item">
+            <img src="img/intro-slide.jpg" alt="">
+            <div class="intro__caption">
+              <h1>Деревообрабатывающий комбинат</h1>
+              <p>Производство клееного бруса и оцилиндрованного бревна с доставкой по всей России</p>
+              <a href="#" class="btn btn-lg btn-outline-primary"><i class="fas fa-play-circle"></i> Видео о производстве</a>
+            </div>
+          </div>
+          <div class="intro__item">
+            <img src="img/intro-slide.jpg" alt="">
+            <div class="intro__caption">
+              <h1>Lorem ipsum dolor.</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, commodi.</p>
+              <a href="#" class="btn btn-lg btn-outline-primary"><i class="fas fa-play-circle"></i> Видео о производстве</a>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <section class="main-box py-5 bg-gray">
+      <section class="main-box py-7 bg-gray">
         <div class="container">
-          <h2 class="main-box__title text-center">Более 17 лет мы изготавливаем материалы для строительства</h2>
-          <div class="row">
+          <h2 class="main-box__title mb-5 text-center">Более 17 лет мы изготавливаем материалы для строительства</h2>
+          <div class="row mb-5">
             <div class="col-xl-3 col-md-6 mb-4">
               <div class="material-card">
                 <div class="material-card__img-wrap">
@@ -78,10 +96,10 @@
             <form action="">
               <div class="row">
                 <div class="form-group col-lg-4">
-                  <input class="form-control form-control-lg" type="text" placeholder="Имя">
+                  <input class="form-control bg-transparent form-control-lg" type="text" placeholder="Имя">
                 </div>
                 <div class="form-group col-lg-4">
-                  <input class="form-control form-control-lg" type="text" placeholder="Телефон">
+                  <input class="form-control bg-transparent form-control-lg" type="text" placeholder="Телефон">
                 </div>
                 <div class="form-group col-lg-4">
                   <button type="submit" class="btn btn-lg btn-outline-primary">Заказать консультацию</button>
@@ -93,12 +111,66 @@
         </div>
       </section>
 
-      <section class="main-box py-5 bg-gray">
+      <section class="main-box py-7">
         <div class="container">
-          <h2 class="main-box__title text-center">Проекты домов</h2>
+          <div class="advantages-wrap">
+            <div class="advantages">
+              <div class="advantages__banner">
+                <img class="img-fluid" src="img/advantages-banner.jpg" alt="">
+              </div>
+              <div class="row advantages__list">
+                <div class="col-lg-4 col-md-6">
+                  <a href="#" class="advantages-item">
+                    <span class="advantages-item__icon icon-01"></span>
+                    <span class="advantages-item__text">4 вида материалов: <br>сосна, ель, лиственница, кедр <br>(не смешиваем между собой)</span>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <a href="#" class="advantages-item">
+                    <span class="advantages-item__icon icon-02"></span>
+                    <span class="advantages-item__text">Большое количество <br>возможных сечений <br>стенового бруса</span>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <a href="#" class="advantages-item">
+                    <span class="advantages-item__icon icon-03"></span>
+                    <span class="advantages-item__text">Возможность изготовления <br>деталей на станке <br>с ЧПУ</span>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <a href="#" class="advantages-item">
+                    <span class="advantages-item__icon icon-04"></span>
+                    <span class="advantages-item__text">Надежный и безопасный <br>клей Akzo Nobel</span>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <a href="#" class="advantages-item">
+                    <span class="advantages-item__icon icon-05"></span>
+                    <span class="advantages-item__text">Возможность зарезки <br>и проектирования <br>фахверковых домов</span>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <a href="#" class="advantages-item">
+                    <span class="advantages-item__icon icon-06"></span>
+                    <span class="advantages-item__text">Возможность хранения <br>готового материала <br>на заводе до 1-го месяца</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="advantages__btn-group">
+            <a href="#" class="btn btn-lg btn-outline-gray">Подробнее о партнерстве</a>
+            <a href="#" class="btn btn-lg btn-outline-primary">Стать партнером</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-box py-6 bg-gray">
+        <div class="container">
+          <h2 class="main-box__title text-center mb-5">Проекты домов</h2>
           <div class="row">
             <div class="col-lg-6 mb-4">
-              <div class="card">
+              <div class="card project-card shadow">
                 <img src="img/project-card-img-01.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title"><a href="#">Дом из клееного бруса по проекту "Портофино"</a></h5>
@@ -112,7 +184,7 @@
               </div>
             </div>
             <div class="col-lg-6 mb-4">
-              <div class="card">
+              <div class="card project-card shadow">
                 <img src="img/project-card-img-02.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title"><a href="#">Дом из клееного бруса по проекту "Портофино"</a></h5>
@@ -126,7 +198,7 @@
               </div>
             </div>
             <div class="col-lg-6 mb-4">
-              <div class="card">
+              <div class="card project-card shadow">
                 <img src="img/project-card-img-03.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title"><a href="#">Дом из клееного бруса по проекту "Портофино"</a></h5>
@@ -140,7 +212,7 @@
               </div>
             </div>
             <div class="col-lg-6 mb-4">
-              <div class="card">
+              <div class="card project-card shadow">
                 <img src="img/project-card-img-04.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title"><a href="#">Дом из клееного бруса по проекту "Портофино"</a></h5>
@@ -154,25 +226,25 @@
               </div>
             </div>
             <div class="col">
-              <button class="btn btn-light w-100"><i class="fas fa-redo-alt text-primary"></i> Показать еще проекты</button>
+              <button class="btn shadow  btn-lg btn-light w-100"><i class="fas fa-redo-alt text-primary"></i> Показать еще проекты</button>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="main-box py-5">
+      <section class="main-box py-7">
         <div class="container">
-          <div class="row mb-5">
+          <div class="row mb-7">
             <div class="col-sm-3">
               <img src="img/logo-xl-gray.png" class="img-fluid" alt="">
             </div>
             <div class="col-sm-9">
-              <h2>Деревообобрабатывающий комбинат</h2>
-              <p>Наша компания «Деревообрабатывающий комбинат» в современном виде работает более 17 лет и является продолжателем традиций артели, которая образовалась в 1932 году. Во времена СССР мебельная продукция Белохолуницкого ДОКа пользовалась неизменным спросом.</p>
-              <a href="#" class="btn btn-outline-primary">Видео о производстве</a>
+              <h2 class="mb-4">Деревообобрабатывающий комбинат</h2>
+              <p class="mb-5">Наша компания «Деревообрабатывающий комбинат» в современном виде работает более 17 лет и является продолжателем традиций артели, которая образовалась в 1932 году. Во времена СССР мебельная продукция Белохолуницкого ДОКа пользовалась неизменным спросом.</p>
+              <a href="#" class="btn btn-lg btn-outline-primary"><i class="fas fa-play-circle"></i> Видео о производстве</a>
             </div>
           </div>
-          <h4 class="mb-4">Сертификаты по изготовлению клееного бруса</h4>
+          <h4 class="mb-4 font-weight-normal">Сертификаты по изготовлению клееного бруса</h4>
           <div class="row">
             <div class="col-md-4">
               <div class="row">
@@ -218,17 +290,17 @@
             <form action="">
               <div class="row">
                 <div class="form-group col-lg-4">
-                  <input class="form-control form-control-lg" type="text" placeholder="Имя">
+                  <input class="form-control bg-transparent form-control-lg" type="text" placeholder="Имя">
                 </div>
                 <div class="form-group col-lg-4">
-                  <input class="form-control form-control-lg" type="text" placeholder="Телефон">
+                  <input class="form-control bg-transparent form-control-lg" type="text" placeholder="Телефон">
                 </div>
                 <div class="form-group col-lg-4">
                   <button type="submit" class="btn btn-lg btn-outline-primary">Заказать консультацию</button>
                 </div>
               </div>
             </form>
-            <p class="text-center">Нажимая на кнопку Заказать консультацию вы соглашаетесь с <a href="#">условиями обработки данных</a></p>
+            <p class="text-center color-gray">Нажимая на кнопку Заказать консультацию вы соглашаетесь с  <a class="color-gray" href="#"><u>условиями обработки данных</u></a></p>
           </div>
         </div>
       </section>

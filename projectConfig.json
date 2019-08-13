@@ -1,5 +1,6 @@
 {
   "blocks": {
+    "slick-carousel": [],
     "page": [],
     "typo": [],
     "page-header": [],
@@ -12,10 +13,14 @@
     "social": [],
     "material-card": [],
     "page-top": [],
-    "feedback-item": []
+    "feedback-item": [],
+    "advantages": [],
+    "project-card": [],
+    "intro": []
   },
   "addCssBefore": [
-    "./src/scss/bootstrap.scss",
+    "./src/scss/bootstrap_custom_variable.scss",
+    "./node_modules/bootstrap/scss/bootstrap.scss",
     "./src/scss/variables.scss",
     "./src/scss/mixins.scss",
     "./src/scss/functions.scss"
@@ -23,8 +28,7 @@
   "addCssAfter": [
     "./src/scss/print.scss"
   ],
-  "singleCompiled": [
-  ],
+  "singleCompiled": [],
   "addJsBefore": [
     "./node_modules/svg4everybody/dist/svg4everybody.js",
     "./node_modules/object-fit-images/dist/ofi.js"
@@ -39,7 +43,8 @@
   "copiedJs": [
     "./node_modules/jquery/dist/jquery.min.js",
     "./node_modules/jquery-migrate/dist/jquery-migrate.min.js",
-    "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+    "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+    "./node_modules/slick-carousel/slick/slick.min.js"
   ],
   "dirs": {
     "srcPath": "./src/",
