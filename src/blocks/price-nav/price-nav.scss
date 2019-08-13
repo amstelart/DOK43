@@ -1,0 +1,21 @@
+// В этом файле должны быть стили для БЭМ-блока price-nav, его элементов,
+// модификаторов, псевдоселекторов, псевдоэлементов, @media-условий...
+// Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
+
+.price-nav {
+
+  $block-name:                &; // #{$block-name}__element
+
+  list-style: none;
+  padding-left: 0;
+  font-size: 14px;
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+}

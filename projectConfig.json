@@ -19,14 +19,17 @@
     "intro": [],
     "faq-item": [],
     "stat-num": [],
-    "gallery-carousel": []
+    "gallery-carousel": [],
+    "price-nav": [],
+    "video-card": []
   },
   "addCssBefore": [
     "./src/scss/bootstrap_custom_variable.scss",
     "./node_modules/bootstrap/scss/bootstrap.scss",
     "./src/scss/variables.scss",
     "./src/scss/mixins.scss",
-    "./src/scss/functions.scss"
+    "./src/scss/functions.scss",
+    "../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css"
   ],
   "addCssAfter": [
     "./src/scss/print.scss"
@@ -47,7 +50,8 @@
     "./node_modules/jquery/dist/jquery.min.js",
     "./node_modules/jquery-migrate/dist/jquery-migrate.min.js",
     "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-    "./node_modules/slick-carousel/slick/slick.min.js"
+    "./node_modules/slick-carousel/slick/slick.min.js",
+    "./node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js"
   ],
   "dirs": {
     "srcPath": "./src/",
