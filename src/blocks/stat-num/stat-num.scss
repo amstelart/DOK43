@@ -1,0 +1,21 @@
+// В этом файле должны быть стили для БЭМ-блока stat-num, его элементов,
+// модификаторов, псевдоселекторов, псевдоэлементов, @media-условий...
+// Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
+
+.stat-num {
+
+  $block-name:                &; // #{$block-name}__element
+
+  border: 2px solid #ff9a00;
+  font-size: 24px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}

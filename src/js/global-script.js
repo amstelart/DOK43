@@ -7,4 +7,11 @@ $( document ).ready(function() {
     autoplaySpeed: 5000,
     cssEase: 'linear'
   });
+  $('.gallery-carousel').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplaySpeed: 5000,
+    cssEase: 'linear'
+  });
 });

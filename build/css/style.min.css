@@ -4580,8 +4580,8 @@ a.text-dark:hover, a.text-dark:focus {
 .slick-next {
   position: absolute;
   display: block;
-  height: 20px;
-  width: 20px;
+  height: 32px;
+  width: 32px;
   line-height: 0px;
   font-size: 0px;
   cursor: pointer;
@@ -4609,14 +4609,14 @@ a.text-dark:hover, a.text-dark:focus {
 .slick-prev:before,
   .slick-next:before {
     font-family: "slick";
-    font-size: 20px;
+    font-size: 32px;
     line-height: 1;
     color: white;
     opacity: 0.75;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
 .slick-prev {
-  left: -25px; }
+  left: 25px; }
 [dir="rtl"] .slick-prev {
     left: auto;
     right: -25px; }
@@ -4625,7 +4625,7 @@ a.text-dark:hover, a.text-dark:focus {
 [dir="rtl"] .slick-prev:before {
       content: "→"; }
 .slick-next {
-  right: -25px; }
+  right: 25px; }
 [dir="rtl"] .slick-next {
     left: -25px;
     right: auto; }
@@ -4721,6 +4721,24 @@ button svg {
 img {
   max-width: 100%;
   height: auto; }
+.dots-list {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 500;
+  font-family: 'Montserrat'; }
+.dots-list li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 8px; }
+.dots-list li:before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      background: #ff9a00;
+      border-radius: 50%;
+      position: absolute;
+      top: 8px;
+      left: 0; }
 .btn-outline-primary {
   color: #000; }
 .btn-outline-primary .fas {
@@ -4733,10 +4751,17 @@ img {
     color: #fff; }
 .btn-outline-primary:hover .fas {
       color: #fff; }
+.fz-sm {
+  font-size: 14px; }
 .color-gray {
   color: #7b7b7b; }
 .bg-gray {
   background: #f0f0f0; }
+.jumbotron-primary {
+  background-color: #ffebcc;
+  font-size: 'Montserrat';
+  font-size: 18px;
+  font-weight: 500; }
 .feedback-container {
   max-width: 846px;
   margin: auto; }
@@ -4855,72 +4880,72 @@ img {
 .page-footer__nav-list a:hover {
         color: #ff9a00; }
 .adv-icon-01-hover {
-  background-image: url(../img/sprite-06343404852325274.png);
+  background-image: url(../img/sprite-046561922791746224.png);
   background-position: 0px 0px;
   width: 60px;
   height: 54px; }
 .adv-icon-01 {
-  background-image: url(../img/sprite-06343404852325274.png);
+  background-image: url(../img/sprite-046561922791746224.png);
   background-position: -64px 0px;
   width: 60px;
   height: 54px; }
 .adv-icon-02-hover {
-  background-image: url(../img/sprite-06343404852325274.png);
+  background-image: url(../img/sprite-046561922791746224.png);
   background-position: -48px -165px;
   width: 44px;
   height: 38px; }
 .adv-icon-02 {
-  background-image: url(../img/sprite-06343404852325274.png);
+  background-image: url(../img/sprite-046561922791746224.png);
   background-position: 0px -165px;
   width: 44px;
   height: 38px; }
 .adv-icon-03-hover {
-  background-image: url(../img/sprite-06343404852325274.png);
+  background-image: url(../img/sprite-046561922791746224.png);
   background-position: -182px 0px;
   width: 42px;
   height: 42px; }
 .adv-icon-03 {
-  background-image: url(../img/sprite-06343404852325274.png);
+  background-image: url(../img/sprite-046561922791746224.png);
   background-position: -104px -113px;
   width: 42px;
   height: 42px; }
 .adv-icon-04-hover {
-  background-image: url(../img/sprite-06343404852325274.png);
+  background-image: url(../img/sprite-046561922791746224.png);
   background-position: 0px -113px;
   width: 48px;
   height: 48px; }
 .adv-icon-04 {
-  background-image: url(../img/sprite-06343404852325274.png);
+  background-image: url(../img/sprite-046561922791746224.png);
   background-position: -52px -113px;
   width: 48px;
   height: 48px; }
 .adv-icon-05-hover {
-  background-image: url(../img/sprite-06343404852325274.png);
+  background-image: url(../img/sprite-046561922791746224.png);
   background-position: -128px -54px;
   width: 50px;
   height: 50px; }
 .adv-icon-05 {
-  background-image: url(../img/sprite-06343404852325274.png);
+  background-image: url(../img/sprite-046561922791746224.png);
   background-position: -128px 0px;
   width: 50px;
   height: 50px; }
 .adv-icon-06-hover {
-  background-image: url(../img/sprite-06343404852325274.png);
+  background-image: url(../img/sprite-046561922791746224.png);
   background-position: -55px -58px;
   width: 51px;
   height: 51px; }
 .adv-icon-06 {
-  background-image: url(../img/sprite-06343404852325274.png);
+  background-image: url(../img/sprite-046561922791746224.png);
   background-position: 0px -58px;
   width: 51px;
   height: 51px; }
 .temp-icon-left-arrow {
-  background-image: url(../img/sprite-06343404852325274.png);
+  background-image: url(../img/sprite-046561922791746224.png);
   background-position: -182px -46px;
   width: 32px;
   height: 32px; }
 .temp-icon-right-arrow {
-  background-image: url(../img/sprite-06343404852325274.png);
+  background-image: url(../img/sprite-046561922791746224.png);
   background-position: -182px -82px;
   width: 32px;
   height: 32px; }
@@ -4980,6 +5005,8 @@ img {
       color: inherit; }
 .page-top {
   position: relative; }
+.page-top.overlay-img-bg:before {
+    background-color: rgba(21, 21, 21, 0.7); }
 .page-top .container {
     position: relative;
     z-index: 1; }
@@ -5046,64 +5073,64 @@ img {
       -webkit-transform: translate(-50%, -50%);
               transform: translate(-50%, -50%); }
 .advantages-item__icon.icon-01:before {
-      background-image: url(../img/sprite-06343404852325274.png);
+      background-image: url(../img/sprite-046561922791746224.png);
       background-position: -64px 0px;
       width: 60px;
       height: 54px; }
 .advantages-item__icon.icon-02:before {
-      background-image: url(../img/sprite-06343404852325274.png);
+      background-image: url(../img/sprite-046561922791746224.png);
       background-position: 0px -165px;
       width: 44px;
       height: 38px; }
 .advantages-item__icon.icon-03:before {
-      background-image: url(../img/sprite-06343404852325274.png);
+      background-image: url(../img/sprite-046561922791746224.png);
       background-position: -104px -113px;
       width: 42px;
       height: 42px; }
 .advantages-item__icon.icon-04:before {
-      background-image: url(../img/sprite-06343404852325274.png);
+      background-image: url(../img/sprite-046561922791746224.png);
       background-position: -52px -113px;
       width: 48px;
       height: 48px; }
 .advantages-item__icon.icon-05:before {
-      background-image: url(../img/sprite-06343404852325274.png);
+      background-image: url(../img/sprite-046561922791746224.png);
       background-position: -128px 0px;
       width: 50px;
       height: 50px; }
 .advantages-item__icon.icon-06:before {
-      background-image: url(../img/sprite-06343404852325274.png);
+      background-image: url(../img/sprite-046561922791746224.png);
       background-position: 0px -58px;
       width: 51px;
       height: 51px; }
 .advantages-item:hover {
     text-decoration: none; }
 .advantages-item:hover .advantages-item__icon.icon-01:before {
-      background-image: url(../img/sprite-06343404852325274.png);
+      background-image: url(../img/sprite-046561922791746224.png);
       background-position: 0px 0px;
       width: 60px;
       height: 54px; }
 .advantages-item:hover .advantages-item__icon.icon-02:before {
-      background-image: url(../img/sprite-06343404852325274.png);
+      background-image: url(../img/sprite-046561922791746224.png);
       background-position: -48px -165px;
       width: 44px;
       height: 38px; }
 .advantages-item:hover .advantages-item__icon.icon-03:before {
-      background-image: url(../img/sprite-06343404852325274.png);
+      background-image: url(../img/sprite-046561922791746224.png);
       background-position: -182px 0px;
       width: 42px;
       height: 42px; }
 .advantages-item:hover .advantages-item__icon.icon-04:before {
-      background-image: url(../img/sprite-06343404852325274.png);
+      background-image: url(../img/sprite-046561922791746224.png);
       background-position: 0px -113px;
       width: 48px;
       height: 48px; }
 .advantages-item:hover .advantages-item__icon.icon-05:before {
-      background-image: url(../img/sprite-06343404852325274.png);
+      background-image: url(../img/sprite-046561922791746224.png);
       background-position: -128px -54px;
       width: 50px;
       height: 50px; }
 .advantages-item:hover .advantages-item__icon.icon-06:before {
-      background-image: url(../img/sprite-06343404852325274.png);
+      background-image: url(../img/sprite-046561922791746224.png);
       background-position: -55px -58px;
       width: 51px;
       height: 51px; }
@@ -5184,6 +5211,30 @@ img {
       padding-bottom: 35px; }
 .intro__caption .btn-outline-primary {
       color: #fff; }
+.faq-item {
+  border-bottom: 2px solid #e0e0e0; }
+.stat-num {
+  border: 2px solid #ff9a00;
+  font-size: 24px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px; }
+.gallery-carousel img {
+  margin: 15px;
+  border-radius: 4px; }
 @media (min-width: 576px) {
     .container {
       max-width: 540px; }
@@ -6030,7 +6081,9 @@ img {
   .text-sm-right {
     text-align: right !important; }
   .text-sm-center {
-    text-align: center !important; } }
+    text-align: center !important; }
+    .jumbotron-primary {
+      padding: 2rem; } }
 @media (min-width: 768px) {
     .container {
       max-width: 720px; }

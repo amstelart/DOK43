@@ -8,6 +8,10 @@
 
   position: relative;
 
+  &.overlay-img-bg:before {
+    background-color: rgba(21, 21, 21, 0.7);
+  }
+
   .container {
     position: relative;
     z-index: 1;

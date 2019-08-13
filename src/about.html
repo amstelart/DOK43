@@ -16,7 +16,7 @@
 
       @@include('blocks/page-header/page-header.html')
 
-      <div class="page-top py-5 overlay-img-bg" style="background-image: url('img/feedback-bg.jpg');">
+      <div class="page-top py-5 overlay-img-bg" style="background-image: url('img/page-top-bg.jpg');">
         <div class="container">
           <nav class="page-top__breadcrumb-wrap" aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -29,24 +29,37 @@
         </div>
       </div>
 
-      <main class="page-box py-4" role="main">
+      <main class="page-box py-5" role="main">
         <div class="container">
-          <h3>Истоки компании</h3>
-          <p>Наша компания «Деревообрабатывающий комбинат» в современном виде работает более 17 лет и является продолжателем традиций артели, которая образовалась в 1932 году. Во времена СССР мебельная продукция Белохолуницкого ДОКа пользовалась неизменным спросом. В 2001 году после смены собственника комбинат взял курс на изготовление деревянных домов различного исполнения.</p>
-          <h3>Статистика нашей работы ежегодно</h3>
-          <ul class="list-unstyled">
-            <li>клиентов строят свои дома из оцилиндрованного бревна нашего производства</li>
-            <li>клиентов строят свои дома из клееного бруса применяя наш материал</li>
+          <h3 class="mb-4">Истоки компании</h3>
+          <p class="mb-5">Наша компания «Деревообрабатывающий комбинат» в современном виде работает более 17 лет и является продолжателем традиций артели, которая образовалась в 1932 году. Во времена СССР мебельная продукция Белохолуницкого ДОКа пользовалась неизменным спросом. В 2001 году после смены собственника комбинат взял курс на изготовление деревянных домов различного исполнения.</p>
+          <h3 class="mb-4">Статистика нашей работы ежегодно</h3>
+          <ul class="list-unstyled mb-5">
+            <li class="d-flex align-items-center mb-4"><span class="stat-num mr-3">60+</span>клиентов строят свои дома из оцилиндрованного бревна нашего производства</li>
+            <li class="d-flex align-items-center mb-4"><span class="stat-num mr-3">40+</span>клиентов строят свои дома из клееного бруса применяя наш материал</li>
           </ul>
-          <p>Один из основных преимущественных факторов компании Деревообрабатывающий комбинат — это мощное, собственное производство клееного бруса и оцилиндрованного бревна, это комбинат, который расположен непосредственно на северной сырьевой базе, а именно в Кировской области.</p>
-          <div class="jumbotron">
+          <p class="mb-4">Один из основных преимущественных факторов компании Деревообрабатывающий комбинат — это мощное, собственное производство клееного бруса и оцилиндрованного бревна, это комбинат, который расположен непосредственно на северной сырьевой базе, а именно в Кировской области.</p>
+          <div class="jumbotron jumbotron-primary">
             <p>В регионах России, в сфере домостроения, мы сотрудничаем с десятком представителей.
             Основные потребители наших пиломатериалов это крупные мебельные холдинги и компании из стран Европы, таких как Германия, Бельгия, Голландия</p>
           </div>
           <p>Наша компания борется за сохранение лесов и поэтому если и покупает пиловочник не собственной заготовки, то только у легальных сертифицированных по FSC поставщиков. Для того чтоб сделать наше производство безотходным, мы запустили линию по производству пеллет из отходов деревообработки.</p>
-          <h3>Галерея</h3>
         </div>
       </main>
+
+    <section class="main-box py-5">
+      <div class="container">
+        <h4 class="mb-4">Галерея</h4>
+        <div class="gallery-carousel slick-theme">
+          <img src="img/gallery-prev-img-01.jpg" alt="">
+          <img src="img/gallery-prev-img-02.jpg" alt="">
+          <img src="img/gallery-prev-img-03.jpg" alt="">
+          <img src="img/gallery-prev-img-01.jpg" alt="">
+          <img src="img/gallery-prev-img-02.jpg" alt="">
+          <img src="img/gallery-prev-img-03.jpg" alt="">
+        </div>
+      </div>
+    </section>
 
       <section class="main-box py-5 overlay-img-bg" style="background-image: url('img/feedback-bg.jpg');">
         <div class="container py-5">
@@ -59,22 +72,22 @@
 
       <section class="main-box py-5 bg-gray">
         <div class="container">
-          <div class="feedback-container position-relative">
-            <h3 class="text-center mb-4">Хотите узнать больше о наших материалах? <br>Оставьте заявку и мы расскажем вам все детали</h3>
+          <div class="feedback-container">
+            <h3 class="text-center font-weight-normal mb-4">У вас есть вопросы по выбору материала? <br>Оставьте заявку и мы бесплатно проконсультируем вас</h3>
             <form action="">
               <div class="row">
                 <div class="form-group col-lg-4">
-                  <input class="form-control" type="text" placeholder="Имя">
+                  <input class="form-control bg-transparent form-control-lg" type="text" placeholder="Имя">
                 </div>
                 <div class="form-group col-lg-4">
-                  <input class="form-control" type="text" placeholder="Телефон">
+                  <input class="form-control bg-transparent form-control-lg" type="text" placeholder="Телефон">
                 </div>
                 <div class="form-group col-lg-4">
-                  <button type="submit" class="btn btn-primary">Заказать консультацию</button>
+                  <button type="submit" class="btn btn-lg btn-outline-primary">Заказать консультацию</button>
                 </div>
               </div>
             </form>
-            <p class="text-center">Нажимая на кнопку Заказать консультацию вы соглашаетесь с <a href="#">условиями обработки данных</a></p>
+            <p class="text-center fz-sm color-gray">Нажимая на кнопку Заказать консультацию вы соглашаетесь с <a class="color-gray" href="#"><u>условиями обработки данных</u></a></p>
           </div>
         </div>
       </section>

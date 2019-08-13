@@ -16,7 +16,10 @@
     "feedback-item": [],
     "advantages": [],
     "project-card": [],
-    "intro": []
+    "intro": [],
+    "faq-item": [],
+    "stat-num": [],
+    "gallery-carousel": []
   },
   "addCssBefore": [
     "./src/scss/bootstrap_custom_variable.scss",

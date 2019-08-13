@@ -16,7 +16,7 @@
 
       @@include('blocks/page-header/page-header.html')
 
-      <div class="page-top py-5 overlay-img-bg" style="background-image: url('img/feedback-bg.jpg');">
+      <div class="page-top py-5 overlay-img-bg" style="background-image: url('img/page-top-bg.jpg');">
         <div class="container">
           <nav class="page-top__breadcrumb-wrap" aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -29,11 +29,12 @@
         </div>
       </div>
 
-      <main class="page-box py-4" role="main">
+      <main class="page-box py-5" role="main">
         <div class="container">
+          <h4 class="mb-5">Реальные отзывы клиентов о работе с нами</h4>
           <div class="feedback-item mb-4 pb-2">
             <div class="feedback-item__header">
-              <p class="text-black-50"><i class="far fa-calendar-alt"></i>&#160;&#160;24.07.2019</p>
+              <p class="color-gray fz-sm"><i class="far fa-calendar-alt"></i>&#160;&#160;24.07.2019</p>
               <h5>Сарафонов Александр</h5>
               <p class="text-primary">Компания ООО «Закупки»</p>
             </div>
@@ -43,7 +44,7 @@
           </div>
           <div class="feedback-item mb-4 pb-2">
             <div class="feedback-item__header">
-              <p class="text-black-50"><i class="far fa-calendar-alt"></i>&#160;&#160;24.07.2019</p>
+              <p class="color-gray fz-sm"><i class="far fa-calendar-alt"></i>&#160;&#160;24.07.2019</p>
               <h5>Сарафонов Александр</h5>
               <p class="text-primary">Компания ООО «Закупки»</p>
             </div>
@@ -51,30 +52,51 @@
               <p>Наша компания «Деревообрабатывающий комбинат» в современном виде работает более 17 лет и является продолжателем традиций артели, которая образовалась в 1932 году. Во времена СССР мебельная продукция Белохолуницкого ДОКа пользовалась неизменным спросом. В 2001 году после смены собственника комбинат взял курс на изготовление деревянных домов различного исполнения.</p>
             </div>
           </div>
-          <div class="feedback-form__wrap">
+          <div class="feedback-item mb-4 pb-2">
+            <div class="feedback-item__header">
+              <p class="color-gray fz-sm"><i class="far fa-calendar-alt"></i>&#160;&#160;24.07.2019</p>
+              <h5>Сарафонов Александр</h5>
+              <p class="text-primary">Компания ООО «Закупки»</p>
+            </div>
+            <div class="feedback-item__text">
+              <p>Наша компания «Деревообрабатывающий комбинат» в современном виде работает более 17 лет и является продолжателем традиций артели, которая образовалась в 1932 году. Во времена СССР мебельная продукция Белохолуницкого ДОКа пользовалась неизменным спросом. В 2001 году после смены собственника комбинат взял курс на изготовление деревянных домов различного исполнения.</p>
+            </div>
+          </div>
+          <div class="feedback-item mb-4 pb-2">
+            <div class="feedback-item__header">
+              <p class="color-gray fz-sm"><i class="far fa-calendar-alt"></i>&#160;&#160;24.07.2019</p>
+              <h5>Сарафонов Александр</h5>
+              <p class="text-primary">Компания ООО «Закупки»</p>
+            </div>
+            <div class="feedback-item__text">
+              <p>Наша компания «Деревообрабатывающий комбинат» в современном виде работает более 17 лет и является продолжателем традиций артели, которая образовалась в 1932 году. Во времена СССР мебельная продукция Белохолуницкого ДОКа пользовалась неизменным спросом. В 2001 году после смены собственника комбинат взял курс на изготовление деревянных домов различного исполнения.</p>
+            </div>
+          </div>
+          <div class="feedback-form__wrap mt-5">
+            <h4 class="mb-5">Вы работали с нами? Мы будем рады вашему отзыву</h4>
             <form action="" class="feedback-form">
               <div class="row">
                 <div class="form-group col-lg-4">
-                  <input class="form-control" type="text" placeholder="Имя*">
+                  <input class="form-control bg-transparent form-control-lg" type="text" placeholder="Имя*">
                 </div>
                 <div class="form-group col-lg-4">
-                  <input class="form-control" type="text" placeholder="Название компании">
+                  <input class="form-control bg-transparent form-control-lg" type="text" placeholder="Название компании">
                 </div>
                 <div class="form-group col-lg-4">
-                  <input class="form-control" type="text" placeholder="Телефон*">
+                  <input class="form-control bg-transparent form-control-lg" type="text" placeholder="Телефон*">
                 </div>
                 <div class="form-group col-lg-12">
-                  <textarea class="form-control" rows="3" placeholder="Текст отзыва*"></textarea>
+                  <textarea class="form-control bg-transparent form-control-lg" rows="7" placeholder="Текст отзыва*"></textarea>
                 </div>
               </div>
-              <div class="d-flex align-items-center">
+              <div class="d-flex flex-wrap align-items-center">
                 <div class="mr-4">
-                  <p class="mb-1">* — обязательные поля</p>
+                  <p class="mb-1 color-gray">* — обязательные поля</p>
                   <p>Ваш телефон НЕ будет опубликован на сайте</p>
                 </div>
-                <button type="submit" class="btn btn-outline-primary flex-grow-1">Отправить отзыв</button>
+                <button type="submit" class="mb-4 btn btn-lg btn-outline-primary flex-grow-1">Отправить отзыв</button>
               </div>
-              <p class="text-right">Нажимая кнопку Отправить отзыв вы соглашаетесь с <a href="#">условием обработки данных</a></p>
+              <p class="text-right color-gray">Нажимая кнопку Отправить отзыв вы соглашаетесь с <a class="color-gray" href="#"><u>условием обработки данных</u></a></p>
             </form>
           </div>
         </div>

@@ -1,0 +1,14 @@
+// В этом файле должны быть стили для БЭМ-блока gallery-carousel, его элементов,
+// модификаторов, псевдоселекторов, псевдоэлементов, @media-условий...
+// Очередность: http://nicothin.github.io/idiomatic-pre-CSS/#priority
+
+.gallery-carousel {
+
+  $block-name:                &; // #{$block-name}__element
+
+  img {
+    margin: 15px;
+    border-radius: 4px;
+  }
+
+}
