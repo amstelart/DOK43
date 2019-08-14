@@ -5,7 +5,8 @@ $( document ).ready(function() {
     fade: true,
     speed: 600,
     autoplaySpeed: 5000,
-    cssEase: 'linear'
+    cssEase: 'linear',
+    arrows: false
   });
   $('.gallery-carousel').slick({
     infinite: true,

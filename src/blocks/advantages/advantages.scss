@@ -9,7 +9,7 @@
   position: relative;
 
   &__banner {
-    
+
   }
 
   &__btn-group {
@@ -29,7 +29,7 @@
 .advantages-wrap {
   border: 2px solid #e0e0e0;
   border-radius: 4px;
-  padding: 30px 80px;
+  padding: 1.875rem 5rem;
   position: relative;
 
   &:before {
@@ -46,8 +46,8 @@
 
 .advantages-item {
 
-  margin-top: 60px;
-  margin-bottom: 25px;
+  margin-top: 3.75rem;
+  margin-bottom: 1.563rem;
   text-align: center;
   display: block;
 
@@ -151,7 +151,7 @@
   &__text {
     font-family: 'Roboto';
     font-weight: 300;
-    font-size: 16px;
+    font-size: 1rem;
     color: #000;
   }
 }

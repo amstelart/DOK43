@@ -20,6 +20,16 @@
   min-width: 320px;
   min-height: 100%;
 
+  font-size: 0.6rem;
+
+  @include media-breakpoint-up(md) {
+    font-size: 0.8rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: 1rem;
+  }
+
   body {
     font-family: 'Montserrat', sans-serif;
   }
@@ -82,7 +92,7 @@ img {
 
   .fas {
     color: #ff9a00;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-right: 5px;
     transition: color 0.15s
   }
@@ -96,7 +106,7 @@ img {
 }
 
 .fz-sm {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .color-gray {

@@ -21,11 +21,12 @@
     "stat-num": [],
     "gallery-carousel": [],
     "price-nav": [],
-    "video-card": []
+    "video-card": [],
+    "fancybox-item": []
   },
   "addCssBefore": [
     "./src/scss/bootstrap_custom_variable.scss",
-    "./node_modules/bootstrap/scss/bootstrap.scss",
+    "../../node_modules/bootstrap/scss/bootstrap.scss",
     "./src/scss/variables.scss",
     "./src/scss/mixins.scss",
     "./src/scss/functions.scss",
