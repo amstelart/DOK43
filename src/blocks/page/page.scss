@@ -20,7 +20,7 @@
   min-width: 320px;
   min-height: 100%;
 
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 
   @include media-breakpoint-up(md) {
     font-size: 0.8rem;
@@ -85,6 +85,10 @@ img {
       left: 0;
     }
   }
+}
+
+.btn-outline-secondary {
+  color: #000;
 }
 
 .btn-outline-primary {

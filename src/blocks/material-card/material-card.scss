@@ -36,6 +36,10 @@
         text-decoration: none;
       }
     }
+
+    @media (max-width: 767.98px) {
+      font-size: 18px;
+    }
   }
 
   &__info {
@@ -46,6 +50,10 @@
 
     a {
       color: inherit;
+    }
+
+    @media (max-width: 767.98px) {
+      font-size: 14px;
     }
   }
 

@@ -8,6 +8,10 @@
 
   position: relative;
 
+  @include media-breakpoint-up(lg) {
+    transform: translateY(-80px);
+  }
+
   &__banner {
 
   }
@@ -21,6 +25,8 @@
 
     .btn {
       margin-bottom: 15px;
+      min-width: 300px;
+      margin: 10px;
     }
   }
 
