@@ -1,5 +1,8 @@
 // Если на проекте jQuery
 $( document ).ready(function() {
+
+  $(".phone-mask").mask("+7(999) 999-9999");
+
   $('#main-slider').slick({
     autoplay: true,
     fade: true,

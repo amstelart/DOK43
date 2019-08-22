@@ -33,6 +33,10 @@
         color: #969696;
       }
     }
+
+    .breadcrumb-item + .breadcrumb-item::before {
+      content: ">";
+    }
   }
 
 }
