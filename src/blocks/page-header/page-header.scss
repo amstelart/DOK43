@@ -39,9 +39,6 @@
 
   &__nav {
 
-    padding-top: 8px;
-    padding-bottom: 8px;
-
     .navbar-nav {
       font-family: 'Roboto';
       display: flex;
@@ -52,6 +49,11 @@
         color: #010101;
         font-size: 18px;
         font-weight: 300;
+
+        @media (min-width: $screen-lg) {
+          padding-top: 16px;
+          padding-bottom: 16px;
+        }
 
         &.dropdown-toggle {
           &:after {
