@@ -13,20 +13,42 @@
   }
 
   &__banner {
-
   }
 
   &__btn-group {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     padding: 30px 0;
+
+    @media (min-width: $screen-lg) {
+      flex-wrap: nowrap;
+      position: absolute;
+      left: 50%;
+      bottom: -63px;
+      transform: translateX(-50%);
+    }
 
     .btn {
       margin-bottom: 15px;
       min-width: 300px;
-      margin: 10px;
+      margin: 10px 20px;
+
+      &.btn-outline-primary,
+      &.btn-outline-secondary {
+        background-color: #fff;
+
+        &:hover {
+          background-color: #ff9a00;
+          border-color: #ff9a00;
+          color: #fff;
+        }
+      }
+
+      @media (min-width: $screen-lg) {
+        margin: 0 20px;
+      }
     }
   }
 
