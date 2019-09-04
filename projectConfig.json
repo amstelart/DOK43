@@ -22,7 +22,8 @@
     "gallery-carousel": [],
     "price-nav": [],
     "video-card": [],
-    "fancybox-item": []
+    "fancybox-item": [],
+    "to-top": []
   },
   "addCssBefore": [
     "./src/scss/bootstrap_custom_variable.scss",
