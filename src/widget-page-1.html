@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="no-js  page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>NTH start project</title>
+  <meta name="description" content="">
+  @@include('_include/page_head.html')
+</head>
+
+<body>
+
+  <div class="page__inner">
+
+    <div class="page__content">
+
+      @@include('blocks/page-header/page-header.html')
+
+      <div class="page-top py-5 overlay-img-bg" style="background-image: url('img/page-top-bg.jpg');">
+        <div class="container">
+          <nav class="page-top__breadcrumb-wrap" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Главная</a></li>
+              <li class="breadcrumb-item active">Для частных лиц</li>
+            </ol>
+            <h1 class="page-top__heading mb-4">Для частных лиц</h1>
+          </nav>
+        </div>
+      </div>
+
+      <main class="page-box py-5" role="main">
+        <div class="container">
+          <script id="bx24_form_inline" data-skip-moving="true">
+              (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
+                      (w[b].forms=w[b].forms||[]).push(arguments[0])};
+                      if(w[b]['forms']) return;
+                      var s=d.createElement('script');s.async=1;s.src=u+'?'+(1*new Date());
+                      var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+              })(window,document,'https://trapeznikov.bitrix24.ru/bitrix/js/crm/form_loader.js','b24form');
+
+              b24form({"id":"1","lang":"ru","sec":"x62jnt","type":"inline"});
+          </script>
+        </div>
+      </main>
+    </div>
+
+    <div class="page__footer-wrapper">
+      @@include('blocks/page-footer/page-footer.html')
+    </div>
+
+  </div>
+
+  @@include('_include/page_bottom.html')
+</body>
+</html>
